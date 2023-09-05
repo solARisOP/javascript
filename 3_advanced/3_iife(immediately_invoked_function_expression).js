@@ -3,7 +3,7 @@
 var abcd = (function () {
     var a = 2; // iife function variables are private 
 
-    return {  // returned an object to abcd with properties getter and setter, by which we can access function variables and change them
+    return {  // returned an object to abcd with methods getter and setter, by which we can access function variables and change them
         getter: function () {
             console.log(a);
         },
